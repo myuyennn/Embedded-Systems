@@ -104,7 +104,7 @@ void ADCReadPot_Init(void) {
   // 2.5: Configure ADCCC to use the clock source defined by ALTCLKCFG
   ADCCC_0 |= 0x1; // only & when inverting
   // 2.6: Enable clock to the appropriate GPIO Modules (Hint: Table 15-1)
-  RCGCGPIO |= 0x8; // 1000 – Change to Port D ONLY
+  RCGCGPIO |= 0x8; // 1000 â€“ Change to Port D ONLY
   // 2.7: Delay for RCGCGPIO
   delay++;
   delay++;
